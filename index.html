@@ -1,0 +1,76 @@
+<!DOCTYPE html><html lang="en"><head><title>Jerome Gomez - Portfolio</title><meta charset="UTF-8"><link rel="canonical" href="https://demo.maxencewolff.com/"><meta name="description" content="Portfolio page for Jerome Gomez"><meta name="robots" content="index, follow"><meta property="og:title" content="Jerome Gomez - Portfolio"><meta property="og:type" content="website"><meta property="og:image" content="/opengraph-image.jpg"><meta property="og:url" content="https://demo.maxencewolff.com/"><meta property="og:image:url" content="/opengraph-image.jpg"><meta property="og:image:alt" content="astro portfolio template image"><meta name="twitter:creator" content="@itsstormzz_"><link rel="icon" href="/favicon.svg"><link rel="sitemap" href="/sitemap-index.xml"><meta content="width=device-width, initial-scale=1" name="viewport"><meta content="Astro v3.1.0" name="generator"><meta content="/opengraph-image.jpg" name="twitter:image"><meta content="summary_large_image" name="twitter:card"><meta content="Jerome Gomez - Portfolio" name="twitter:title"><meta content="Portfolio page for Jerome Gomez" name="twitter:description"><meta content="@itsstormzz_" name="twitter:site"><link rel="stylesheet" href="/_astro/index.7b28fecb.css" /></head><body class="mx-auto flex min-h-screen max-w-[872px] flex-col gap-9 bg-neutral-950 px-10 py-8 text-sm text-neutral-400 md:gap-20 md:py-16"><!-- <Header /> --><div class="fixed z-0 h-[134px] w-[134px] lg:w-[300px] lg:h-[300px] rounded-full bg-orange-500 blur-[150px] md:blur-[350px] opacity-50 left-0 top-0"></div><div class="fixed z-0 h-[134px] w-[134px] lg:w-[300px] lg:h-[300px] rounded-full bg-violet-500 blur-[150px] md:blur-[350px] opacity-50 right-0 bottom-0"></div><main class="flex flex-col gap-20"><article class="flex flex-col gap-8 md:flex-row-reverse md:justify-end md:gap-12"><div class="flex flex-col gap-8"><h1 class="text-3xl text-neutral-100">Hi, I’m Jerome 👋</h1><!-- <h2
+          class="w-auto max-w-[60ch] leading-6"
+          set:html={convertAsteriskToStrongTag(presentation.description)}
+        /> --><h2 class="w-auto leading-6">
+  I'm a frontend web developer with over 12 years of experience.<br>I'm knowledgeable with the following
+  <pre>
+  {
+    Languages: [
+      'HTML',
+      'CSS',
+      'Sass/Scss',
+      'Javascript',
+      'PHP',
+      'MySQL'
+    ],
+    JS_Library_Frameworks: [
+      'jQuery',
+      'React',
+      'Vue'
+    ],    
+    CMS_Frameworks': [
+      'Worpdess',
+      'Laravel',
+      'Webflow',
+      'Astro'
+    ],
+    Server_Management': [
+      'cPanel',
+      'Digital Ocean',
+      'AWS'
+    ],
+    Other: [
+      'PSD to web template',
+      'Figma to web template'
+    ]
+  }
+  </pre>
+  </h2><!-- <SocialLinks /> --></div></article><!-- <article class="flex flex-col gap-8">
+      <header class="flex w-full flex-row justify-between gap-2">
+        <h3 class="text-lg text-neutral-100">Latest posts</h3>
+        <Link href="/posts" label="See all posts" isUnderline target="_self" />
+      </header>
+      {posts.length === 0 && <p>Soon, stay connected 👀...</p>}
+
+      <section class="flex flex-col gap-4 md:flex-row md:flex-wrap">
+        {
+          posts.length !== 0 &&
+            posts
+              .slice(0, 2)
+              .map((post) => (
+                <PostCard
+                  publishedAt={post.data.publishedAt}
+                  title={post.data.title}
+                  description={post.data.description}
+                  slug={post.slug}
+                />
+              ))
+        }
+      </section>
+    </article> --><!-- <article class="flex flex-col gap-8">
+      <header class="flex w-full flex-row justify-between gap-2">
+        <h3 class="text-lg text-neutral-100">
+          Selected projects ({projects.length})
+        </h3>
+      </header>
+      {projects.length === 0 && <p>Oops, I must work^^^^^</p>}
+
+      <section class="flex flex-col gap-4">
+        {
+          projects.length !== 0 &&
+            projects.map((project) => <ProjectCard {...project} />)
+        }
+      </section>
+    </article> --><article class="flex flex-col gap-8"><header class="flex w-full flex-row justify-between gap-2"><h3 class="text-lg text-neutral-100">Get in touch</h3></header><p>
+Email me at <a href="mailto:jerome2kph@gmail.com" class="hover:text-neutral-100 cursor-pointer" href="mailto:jerome2kph@gmail.com" rel="noreferrer" target="_blank">jerome2kph@gmail.com<span class="sr-only">jerome2kph@gmail.com link</span></a> or follow me via my social links.
+</p><ul role="list" class="flex flex-row gap-2"><li><a href="https://github.com/jerome-shiftleft" class="hover:text-neutral-100 cursor-pointer" href="https://github.com/jerome-shiftleft" rel="noreferrer" target="_blank">Github<span class="sr-only">Github link</span></a></li></ul></article></main></body></html>
